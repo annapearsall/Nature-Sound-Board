@@ -1,0 +1,63 @@
+/* Your Awesome Sng */
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lora&display=swap');
+
+body {
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  
+}
+
+h1 {
+  margin: 50px 200px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+}
+
+kbd {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family:'Syne Mono', moace;
+  transition: .5s;
+}
+
+kbd:hover {
+  background: Gainsboro;
+  transition: .5s;
+}
+
+div {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  width: 150px;
+  
+}
+
+#spacebar {
+  width: 180px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+span {
+  font-family: "Lora", serif;
+  margin: 8px;
+}
+
